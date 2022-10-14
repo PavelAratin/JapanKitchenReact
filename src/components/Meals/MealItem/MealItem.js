@@ -1,4 +1,5 @@
 import styles from './MealItem.module.css'
+import MealItemForm from './MealItemForm';
 
 const MealItem = (props) => {
   const formatterPrice = `$${props.price.toFixed(2)}`;
@@ -10,7 +11,7 @@ const MealItem = (props) => {
         <div className={styles.price}>{formatterPrice}</div>
       </div>
       <div>
-
+        <MealItemForm></MealItemForm>
       </div>
     </li>
   )
