@@ -37,6 +37,7 @@ const MealList = (props) => {
   const mealList = DUMMY_MEALS.map((meal) => (
     <MealItem
       key={meal.id}
+      id={meal.id}
       name={meal.name}
       decription={meal.description}
       price={meal.price}>
