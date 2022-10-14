@@ -1,8 +1,11 @@
-
+import React from "react";
+import Header from "./components/Layout/Header";
 
 function App() {
   return (
-    <h1>Японская кухня</h1>
+    <React.Fragment>
+      <Header></Header>
+    </React.Fragment>
   );
 }
 
